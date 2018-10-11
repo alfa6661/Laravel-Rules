@@ -1,0 +1,29 @@
+{
+    "name": "alfa6661/laravel-rules",
+    "description": "List of custom laravel rules",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alfa Adhitya",
+            "email": "alfa2159@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/contracts": "~5.5",
+        "illuminate/support": "~5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Alfa6661\\LaravelRules\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Alfa6661\\LaravelRules\\ServiceProvider"
+            ]
+        }
+    }
+}
